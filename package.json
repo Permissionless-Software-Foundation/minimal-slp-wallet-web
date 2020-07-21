@@ -1,6 +1,6 @@
 {
   "name": "minimal-slp-wallet-web",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "A minimalist Bitcoin Cash (BCH) wallet npm library, for use in a web apps.",
   "main": "dist/minimal-slp-wallet-web.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "docs": "./node_modules/.bin/apidoc -i src/ -o docs",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "coverage:report": "nyc --reporter=html mocha test/unit/ --exit",
-    "build": "browserify -p tinyify -o dist/minimal-slp-wallet-web.js"
+    "build": "browserify index.js -p tinyify -o dist/minimal-slp-wallet-web.js"
   },
   "keywords": [
     "bitcoin",
