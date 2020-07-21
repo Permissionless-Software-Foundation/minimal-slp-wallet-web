@@ -62,6 +62,6 @@ docs
 coverage
 database/
 system-user-*.json
-dist/
+#dist/
 
 !README.md
