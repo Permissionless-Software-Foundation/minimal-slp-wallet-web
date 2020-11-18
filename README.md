@@ -4,3 +4,5 @@ A minified version of [minimal-slp-wallet](https://www.npmjs.com/package/minimal
 
 # Licence
 [MIT](LICENSE.md)
+
+tes
